@@ -1,0 +1,3 @@
+(executable
+ (name latest_announcements)
+ (libraries fxmacrodata lwt lwt.unix yojson))
