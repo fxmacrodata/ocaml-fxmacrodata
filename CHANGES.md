@@ -1,3 +1,10 @@
+# 0.1.1 (unreleased)
+
+- Documentation fix: the README, the `latest_announcements` example and the
+  `macro_indicator` doc comment all used the indicator slug `inflation_rate`,
+  which the API answers with 404. The slug is `inflation`. Copy-pasting the
+  README example previously failed.
+
 # 0.1.0 (2026-08-28)
 
 - Initial release.

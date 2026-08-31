@@ -3,7 +3,7 @@
 let announcements_fixture =
   {|{
   "currency": "usd",
-  "indicator": "inflation_rate",
+  "indicator": "inflation",
   "data": [
     {"date": "2026-07-15", "value": 2.7, "unit": "percent"},
     {"date": "2026-06-11", "value": 2.4, "unit": "percent"}
@@ -138,11 +138,11 @@ let test_macro_indicator_request_shape () =
     check_ok
       (run
          (Fxmacrodata.macro_indicator client ~currency:"USD"
-            ~indicator:"Inflation_Rate" ~start_date:"2026-01-01" ()))
+            ~indicator:"Inflation" ~start_date:"2026-01-01" ()))
   in
   Alcotest.(check int) "rows parsed" 2 (List.length rows);
   Alcotest.(check string)
-    "path lowercased" "/api/v1/announcements/usd/inflation_rate" (path_of cap);
+    "path lowercased" "/api/v1/announcements/usd/inflation" (path_of cap);
   let q = query_of cap in
   Alcotest.(check (list string))
     "start_date sent" [ "2026-01-01" ]

@@ -6,7 +6,7 @@ let () =
   match
     Lwt_main.run
       (Fxmacrodata.macro_indicator client ~currency:"usd"
-         ~indicator:"inflation_rate" ~start_date:"2026-01-01" ())
+         ~indicator:"inflation" ~start_date:"2026-01-01" ())
   with
   | Ok rows ->
       Printf.printf "Fetched %d rows\n" (List.length rows);

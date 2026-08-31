@@ -12,7 +12,7 @@
       match
         Lwt_main.run
           (Fxmacrodata.macro_indicator client ~currency:"usd"
-             ~indicator:"inflation_rate" ())
+             ~indicator:"inflation" ())
       with
       | Ok rows -> Printf.printf "%d rows\n" (List.length rows)
       | Error e -> prerr_endline (Fxmacrodata.Error.to_string e)
