@@ -142,7 +142,7 @@ let test_macro_indicator_request_shape () =
   in
   Alcotest.(check int) "rows parsed" 2 (List.length rows);
   Alcotest.(check string)
-    "path lowercased" "/api/v1/announcements/usd/inflation" (path_of cap);
+    "path lowercased" "/v1/announcements/usd/inflation" (path_of cap);
   let q = query_of cap in
   Alcotest.(check (list string))
     "start_date sent" [ "2026-01-01" ]
@@ -152,7 +152,7 @@ let test_macro_indicator_request_shape () =
 let test_forex_request_shape () =
   let cap, client = stub ~body:{|{"data": []}|} () in
   let _ = check_ok (run (Fxmacrodata.forex client ~base:"EUR" ~quote:"USD" ())) in
-  Alcotest.(check string) "path" "/api/v1/forex/eur/usd" (path_of cap)
+  Alcotest.(check string) "path" "/v1/forex/eur/usd" (path_of cap)
 
 let test_data_catalogue_bool_params () =
   let cap, client = stub () in

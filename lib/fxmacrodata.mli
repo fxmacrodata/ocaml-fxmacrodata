@@ -60,7 +60,7 @@ type t
 (** A configured API client. *)
 
 val default_base_url : string
-(** ["https://fxmacrodata.com/api"] *)
+(** ["https://api.fxmacrodata.com"] *)
 
 val resolve_api_key : ?api_key:string -> unit -> string option
 (** Resolve an API key from the explicit value, then the

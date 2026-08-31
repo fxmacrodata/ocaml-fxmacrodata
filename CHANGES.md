@@ -1,5 +1,8 @@
 # 0.1.1 (unreleased)
 
+- The default base URL is now `https://api.fxmacrodata.com`, the canonical host.
+  `fxmacrodata.com/api` was an undocumented alias. Pass `~base_url` to override.
+
 - Documentation fix: the README, the `latest_announcements` example and the
   `macro_indicator` doc comment all used the indicator slug `inflation_rate`,
   which the API answers with 404. The slug is `inflation`. Copy-pasting the

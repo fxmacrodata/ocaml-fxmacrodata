@@ -33,7 +33,7 @@ type t = {
   http : http;
 }
 
-let default_base_url = "https://fxmacrodata.com/api"
+let default_base_url = "https://api.fxmacrodata.com"
 
 let non_empty = function
   | Some "" -> None
