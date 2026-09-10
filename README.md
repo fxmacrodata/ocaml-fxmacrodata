@@ -35,9 +35,11 @@ dune exec examples/latest_announcements.exe
 
 ## Authentication
 
-Free-tier endpoints work without a key. For keyed access, pass the key
-explicitly or set an environment variable — resolution order is
-`~api_key` argument, then `FXMACRODATA_API_KEY`, then `FXMD_API_KEY`:
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=ocaml_subscribe) to use non-USD data, full available history, FX, commodities and positioning in your OCaml application. Evaluate the client with public USD data without a key.
+
+For subscription access, pass your account's key explicitly or set an
+environment variable — resolution order is `~api_key`, then
+`FXMACRODATA_API_KEY`, then `FXMD_API_KEY`:
 
 ```ocaml
 let client = Fxmacrodata.create ~api_key:"YOUR_KEY" ()
