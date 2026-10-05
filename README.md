@@ -35,7 +35,7 @@ dune exec examples/latest_announcements.exe
 
 ## Authentication
 
-[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=ocaml_subscribe) to use non-USD data, full available history, FX, commodities and positioning in your OCaml application. Evaluate the client with public USD data without a key.
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=subscribe) to use non-USD data, full available history, FX, commodities and positioning in your OCaml application. Evaluate the client with public USD data without a key.
 
 For subscription access, pass your account's key explicitly or set an
 environment variable — resolution order is `~api_key`, then
