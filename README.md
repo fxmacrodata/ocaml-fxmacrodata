@@ -1,6 +1,6 @@
 # ocaml-fxmacrodata
 
-OCaml client for the [FXMacroData](https://fxmacrodata.com) API — official-source
+OCaml client for the [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=readme) API — official-source
 forex and macroeconomic data: central-bank announcements, macroeconomic
 indicator time series, economic release calendars, CFTC Commitment of Traders
 positioning, commodities, and FX spot-rate history across 18 catalogue
@@ -64,7 +64,7 @@ Typed helpers (all return `(_, Fxmacrodata.Error.t) result Lwt.t`; dates are
 | `cot ~currency` | `GET /v1/cot/{currency}` |
 | `commodity ~indicator` | `GET /v1/commodities/{indicator}` |
 
-Any other endpoint of the [public API](https://fxmacrodata.com/documentation/reference) is
+Any other endpoint of the [public API](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=readme) is
 reachable through the generic escape hatch:
 
 ```ocaml
@@ -92,7 +92,7 @@ Tests run fully offline against an injected stub HTTP function.
 - [Python client](https://github.com/fxmacrodata/fxmacrodata) ·
   [Julia client](https://github.com/fxmacrodata/FXMacroData.jl) ·
   [MCP server](https://github.com/fxmacrodata/mcp-server-fxmacrodata)
-- [API documentation](https://fxmacrodata.com/documentation/reference)
+- [API documentation](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=readme)
 
 ## License
 
