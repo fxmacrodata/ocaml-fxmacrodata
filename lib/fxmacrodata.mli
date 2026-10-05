@@ -1,4 +1,4 @@
-(** OCaml client for the {{:https://fxmacrodata.com}FXMacroData} API.
+(** OCaml client for the {{:https://fxmacrodata.com/?utm_source=opam&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=homepage}FXMacroData} API.
 
     FXMacroData serves official-source forex and macroeconomic data:
     central-bank announcements, macroeconomic indicator time series, economic
@@ -22,7 +22,7 @@
     [~api_key] to {!create} or set the [FXMACRODATA_API_KEY] (or
     [FXMD_API_KEY]) environment variable.
 
-    API reference: {{:https://fxmacrodata.com/documentation/reference}fxmacrodata.com/documentation/reference} *)
+    API reference: {{:https://fxmacrodata.com/documentation/reference?utm_source=opam&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=docs}fxmacrodata.com/documentation/reference} *)
 
 (** Errors returned by every request function. *)
 module Error : sig

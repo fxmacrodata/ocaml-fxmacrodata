@@ -7,8 +7,8 @@ maintainer: ["FXMacroData <quantdevapp@gmail.com>"]
 authors: ["FXMacroData <quantdevapp@gmail.com>"]
 license: "MIT"
 tags: ["forex" "macroeconomics" "finance" "market data" "api-client"]
-homepage: "https://fxmacrodata.com"
-doc: "https://fxmacrodata.com/documentation/reference"
+homepage: "https://fxmacrodata.com/?utm_source=opam&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=homepage"
+doc: "https://fxmacrodata.com/documentation/reference?utm_source=opam&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=docs"
 bug-reports: "https://github.com/fxmacrodata/ocaml-fxmacrodata/issues"
 depends: [
   "dune" {>= "3.7"}

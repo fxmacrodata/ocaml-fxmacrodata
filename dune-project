@@ -13,9 +13,9 @@
 
 (maintainers "FXMacroData <quantdevapp@gmail.com>")
 
-(homepage "https://fxmacrodata.com")
+(homepage "https://fxmacrodata.com/?utm_source=opam&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=homepage")
 
-(documentation "https://fxmacrodata.com/documentation/reference")
+(documentation "https://fxmacrodata.com/documentation/reference?utm_source=opam&utm_medium=referral&utm_campaign=ocaml-fxmacrodata&utm_content=docs")
 
 (package
  (name fxmacrodata)
